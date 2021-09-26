@@ -14,7 +14,7 @@ Additionally by pressing "spacebar" the program will show you a visualization of
 Snake is fully finished. *Requires random, and time module*
 
 You can play normal snake, with all the same game functions.
-Additionally by pressing "spacebar" the program will begin auto "solving" the snake game, that is it will perform the guarenteed winning strategy using a [Hamiltonian Circuit](https://en.wikipedia.org/wiki/Hamiltonian_path), it is absoulutely not the most efficient, perhaps a future project?
+Additionally by pressing "spacebar" the program will begin auto "solving" the snake game, that is it will perform the guarenteed winning strategy using a [Hamiltonian Circuit](https://en.wikipedia.org/wiki/Hamiltonian_path). This is absoulutely not the most efficient strategy, perhaps a future project?
 
 ### Tic-Tac-Toe
 
