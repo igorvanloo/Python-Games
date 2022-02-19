@@ -15,10 +15,14 @@ You can see my own code of the backtracking algorithm [here](https://github.com/
 Mr Pong is fully finished.
 You can play normal Mr Pong, with all the same game functions. Future project will be to create an AI to play against.
 
+### Wordle
+
+Wordle is fully finished. *Requires random module*
+You can play normal wordle with all the same game functions. Future project will be a "best guesser algorithm"
+
 ### Snake
 
 Snake is fully finished. *Requires random, and time module*
-
 You can play normal snake, with all the same game functions.
 Additionally by pressing "spacebar" the program will begin auto "solving" the snake game, that is it will perform the guarenteed winning strategy using a [Hamiltonian Circuit](https://en.wikipedia.org/wiki/Hamiltonian_path). This is absoulutely not the most efficient strategy, perhaps a future project?
 
@@ -35,9 +39,12 @@ You can play regularly however it is not very pretty. I have plans to make an AI
   * Teachs you how to use the mouse position
 2. **Sudoku**
   * Simple as well to create the game, in a sense a more complex version of Tic-Tac-Toe
-  * How to delete numbers(Shapes) that you have added to the screen (Not as easy as it sounds!)
+  * How to delete numbers (Shapes) that you have added to the screen (Not as easy as it sounds!)
   * If you are going to do the backtracking visualization this project will be much harder
-3. **Snake**
+3. **Wordle**
+  * Not so simple to create a working framework for the game itself
+  * Need to think of smart ways to colour squares and keep track of all the data inbetween each guess
+4. **Snake**
   * There is now constant movement of your shapes, which is a step up from Sudoku
   * Requires some collision mechanics to eat food, and grow the snake.
   * If you want to make the optimal strategy as well, it is not much more difficult and I recommend it as it is the simplest AI I can think of
