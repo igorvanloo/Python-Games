@@ -71,7 +71,7 @@ def SolveSudoku(sudoku, screen):
             text = fnt.render(str(i), True, pg.Color(0,0,0))
             pg.draw.rect(screen, (255,255,255), pg.Rect(column*gap, row*gap, gap, gap), 0)
             pg.draw.rect(screen, (0,255,0), pg.Rect(column*gap, row*gap, gap, gap), 3)
-            screen.blit(text, (23 + column*60, 20 + row*60))
+            screen.blit(text, (23 + column*60, row*60))
             pg.display.update()
             pg.time.delay(100)
             
@@ -82,7 +82,7 @@ def SolveSudoku(sudoku, screen):
             text = fnt.render(" ", True, pg.Color(0,0,0))
             pg.draw.rect(screen, (255,255,255), pg.Rect(column*gap, row*gap, gap, gap), 0)
             pg.draw.rect(screen, (255,0,0), pg.Rect(column*gap, row*gap, gap, gap), 3)
-            screen.blit(text, (23 + column*60, 20 + row*60))
+            screen.blit(text, (23 + column*60, row*60))
             pg.display.update()
             pg.time.delay(100)
             
@@ -111,14 +111,14 @@ def draw_numbers(screen, sudoku):
                 output = " "
                 
             text = font.render(str(output), True, pg.Color(0,0,0))
-            screen.blit(text, (23 + col*60, 20 + row*60))
+            screen.blit(text, (23 + col*60, row*60))
             
     
 def draw_new_number(screen, pos, number):
     font = pg.font.SysFont("comicsans", 40)
 
     text = font.render(str(number), True, pg.Color("black"))
-    screen.blit(text, (23 + pos[1]*60, 20 + pos[0]*60)) 
+    screen.blit(text, (23 + pos[1]*60, pos[0]*60)) 
 
     
 def draw_bottom_screen(screen, strikes):

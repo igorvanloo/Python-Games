@@ -11,12 +11,12 @@ import random, time
 
 def draw_score(screen, score):
     pg.draw.rect(screen, (255,255,255), pg.Rect(0, 0, 540, 30), 0)
-    fnt = pg.font.SysFont("comicsans", 40)
+    fnt = pg.font.SysFont("comicsans", 20)
     text = fnt.render("Score: " + str(score), True, (255, 0, 0))
     screen.blit(text, (0, 0))
     
 def draw_gameover(screen):
-    fnt = pg.font.SysFont("comicsans", 40)
+    fnt = pg.font.SysFont("comicsans", 20)
     text = fnt.render("Game over", True, (255, 0, 0))
     screen.blit(text, (200, 0))
     

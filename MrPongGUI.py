@@ -10,7 +10,7 @@ import pygame as pg
 
 def draw_score(screen, score_p1, score_p2):
     pg.draw.rect(screen, (0,0,0), pg.Rect(0, 0, 600, 30), 0)
-    fnt = pg.font.SysFont("comicsans", 40)
+    fnt = pg.font.SysFont("comicsans", 25)
     text = fnt.render(str(score_p1) + ":" + str(score_p2), True, (255, 255, 255))
     screen.blit(text, (280, 0))
 
@@ -92,8 +92,8 @@ def main():
                     
                 if event.key == pg.K_p: #Start ball movement
                     
-                    x_pos = 0.2
-                    y_pos = 0.2
+                    x_pos = 0.8
+                    y_pos = 0.8
             
         if p1yp < 30:
             p1yp = 30
@@ -104,6 +104,8 @@ def main():
             p2yp = 30
         if p2yp > 290:
             p2yp = 290
+        draw_player_1_paddle(screen, p1yp)
+        draw_player_2_paddle(screen, p2yp)
         
         ball_x += x_pos
         ball_y += y_pos
