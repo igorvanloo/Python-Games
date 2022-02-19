@@ -172,6 +172,7 @@ def GameOver(board, guess, answer):
         print("You lose, answer was", ''.join(answer))
 
 def NextGuessAlgo():
+    #Work in Progress
     pass
 
 def main():
