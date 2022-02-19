@@ -5,6 +5,7 @@ Just some simple python games I created to learn how to use Pygame. All games ne
 ### Sudoku
 
 The Sudoku is fully finished. 
+
 You can play normal sudoku, with all the same game functions, except indexing squares (Small notes).
 Additionally by pressing "spacebar" the program will show you a visualization of the [Backtracking Algorithm](https://en.wikipedia.org/wiki/Sudoku_solving_algorithms)
 
@@ -13,16 +14,19 @@ You can see my own code of the backtracking algorithm [here](https://github.com/
 ### Mr Pong
 
 Mr Pong is fully finished.
+
 You can play normal Mr Pong, with all the same game functions. Future project will be to create an AI to play against.
 
 ### Wordle
 
 Wordle is fully finished. *Requires random module*
+
 You can play normal wordle with all the same game functions. Future project will be a "best guesser algorithm"
 
 ### Snake
 
 Snake is fully finished. *Requires random, and time module*
+
 You can play normal snake, with all the same game functions.
 Additionally by pressing "spacebar" the program will begin auto "solving" the snake game, that is it will perform the guarenteed winning strategy using a [Hamiltonian Circuit](https://en.wikipedia.org/wiki/Hamiltonian_path). This is absoulutely not the most efficient strategy, perhaps a future project?
 
