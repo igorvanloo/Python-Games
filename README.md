@@ -11,7 +11,7 @@ I recently fully got into Pygame and have started making much more complex games
 Platformer based game, you can view more about this in my other repository [here](https://github.com/igorvanloo/Treasure-Collector)
 
 
-##Simple Games
+## Simple Games
 
 ### Sudoku
 
