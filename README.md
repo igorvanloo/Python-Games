@@ -2,6 +2,12 @@
 
 Just some simple python games I created to learn how to use Pygame. All games need the [Pygame Module](https://www.pygame.org/wiki/GettingStarted) to be used. Additional modules will be stated under the respective games.
 
+## More Complex games
+
+I recently fully got into Pygame and have started making much more complex games that i'm more proud of and hence giving them their own repository.
+1. **Treasure Collector**
+Platformer based game, you can view more about this in my other repository [here](https://github.com/igorvanloo/Treasure-Collector)
+
 ### Sudoku
 
 The Sudoku is fully finished. 
