@@ -5,8 +5,11 @@ Just some simple python games I created to learn how to use Pygame. All games ne
 ## More Complex games
 
 I recently fully got into Pygame and have started making much more complex games that i'm more proud of and hence giving them their own repository.
+
 ### Treasure Collector
+
 Platformer based game, you can view more about this in my other repository [here](https://github.com/igorvanloo/Treasure-Collector)
+
 
 ##Simple Games
 
